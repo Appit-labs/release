@@ -14,6 +14,10 @@
 Works in **pi · Claude Code · Codex · Cursor** and any agent that reads a `SKILL.md` — plain
 Markdown plus one stdlib script, no agent-specific tools.
 
+<p align="center">
+  <img alt="release demo — real run, regenerable from demos/release.json" src="skills/release/assets/demo.gif" width="900">
+</p>
+
 ## What it is
 
 `release` reads the last tag and the commits since it, decides major/minor/patch, prints the changelog it would write, then (with `--yes`) writes the version into every file it found, prepends `CHANGELOG.md`, branches, commits `chore(release): vX.Y.Z`, pushes and opens the PR/MR. A separate `tag` step releases after the merge.
@@ -48,6 +52,8 @@ cp -r release/skills/release ~/.claude/skills/      # or ~/.codex/skills/, .curs
 | --- | --- |
 | always-on — the description, paid every session | ~95 |
 | on invoke | ~1.6k |
+
+The demo is a real run: `demos/release.json` holds the captured output and `tools/make_demo.py` renders it.
 
 ## Security
 

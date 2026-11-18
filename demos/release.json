@@ -1,0 +1,39 @@
+{
+  "skill": "release",
+  "prompt": "you@laptop:~/api",
+  "steps": [
+    {
+      "cmd": "release.py plan",
+      "phase": "plan",
+      "note": "read-only: last tag, commits since, and the bump it implies",
+      "out": [
+        "provider   github",
+        "from       v1.4.2  \u2192  v2.0.0   (major)",
+        "commits    3 since the last tag",
+        "version in package.json",
+        "",
+        "## v2.0.0"
+      ]
+    },
+    {
+      "cmd": "release.py plan   (notes)",
+      "phase": "notes",
+      "note": "the changelog comes from the commits \u2014 no hand-written release notes",
+      "out": [
+        "## v2.0.0",
+        "",
+        "### Breaking changes",
+        "",
+        "- drop the v1 webhooks",
+        "",
+        "### Added",
+        "",
+        "- **api:** paginate the candidates endpoint",
+        "",
+        "### Fixed",
+        "",
+        "- **ui:** stop the double submit on Create"
+      ]
+    }
+  ]
+}
