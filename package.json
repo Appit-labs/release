@@ -1,0 +1,31 @@
+{
+  "name": "release",
+  "version": "0.1.0",
+  "description": "Conventional commits \u2192 SemVer, changelog, release PR/MR, tag and release.",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "pi-package",
+    "claude-code-plugin",
+    "codex-skill"
+  ],
+  "author": {
+    "name": "Appit Labs",
+    "url": "https://github.com/Appit-labs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Appit-labs/release.git"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ]
+}

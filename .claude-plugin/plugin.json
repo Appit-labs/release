@@ -1,0 +1,12 @@
+{
+  "name": "release",
+  "version": "0.1.0",
+  "description": "Conventional commits \u2192 SemVer, changelog, release PR/MR, tag and release.",
+  "author": {
+    "name": "Appit Labs",
+    "url": "https://github.com/Appit-labs"
+  },
+  "homepage": "https://github.com/Appit-labs/release",
+  "license": "MIT",
+  "skills": "./skills"
+}
