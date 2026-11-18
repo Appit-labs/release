@@ -10,8 +10,8 @@
     "codex-skill"
   ],
   "author": {
-    "name": "Appit Labs",
-    "url": "https://github.com/Appit-labs"
+    "name": "Ibrahim M. Badr",
+    "url": "https://github.com/ibrahimbdr"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,11 @@
     "README.md",
     "LICENSE",
     "SECURITY.md"
+  ],
+  "contributors": [
+    {
+      "name": "Appit Labs",
+      "url": "https://github.com/Appit-Labs"
+    }
   ]
 }

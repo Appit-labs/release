@@ -2,5 +2,9 @@
   "name": "release",
   "version": "0.1.0",
   "description": "Conventional commits \u2192 SemVer, changelog, release PR/MR, tag and release.",
-  "skills": "./skills"
+  "skills": "./skills",
+  "author": {
+    "name": "Ibrahim M. Badr",
+    "url": "https://github.com/ibrahimbdr"
+  }
 }
