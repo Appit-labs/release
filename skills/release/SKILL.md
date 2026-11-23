@@ -23,6 +23,8 @@ python3 "$SKILL_DIR/scripts/release.py" tag   [--yes]
 
 `plan` and every run without `--yes` are read-only. Nothing is pushed by accident.
 
+**Not for:** deploying — this stops at tag plus release notes. A repo with no commit convention has no version to compute: see the last section for the fallback.
+
 ## Portability
 
 Works in any agent that can run shell commands. `$SKILL_DIR` is this skill's folder:
