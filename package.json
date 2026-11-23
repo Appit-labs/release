@@ -1,6 +1,6 @@
 {
-  "name": "release",
-  "version": "0.1.1",
+  "name": "@appitlabs/release",
+  "version": "0.1.2",
   "description": "Conventional commits \u2192 SemVer, changelog, release PR/MR, tag and release.",
   "license": "MIT",
   "keywords": [
@@ -33,5 +33,9 @@
       "name": "Appit Labs",
       "url": "https://github.com/Appit-Labs"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
