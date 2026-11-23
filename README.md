@@ -45,6 +45,9 @@ git clone git@github.com:Appit-labs/release.git
 cp -r release/skills/release ~/.claude/skills/      # or ~/.codex/skills/, .cursor/skills/, …
 ```
 
+> **npm name.** `release` on npm is an unrelated package by another author. The one published from this repository is
+> `@appitlabs/release` — `npm i @appitlabs/release`.
+
 ## Requires
 
 - `git`, plus `gh` (GitHub) or `glab` (GitLab), authenticated
